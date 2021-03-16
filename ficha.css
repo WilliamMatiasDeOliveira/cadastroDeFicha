@@ -1,0 +1,446 @@
+
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ body{
+	background-color: rgba(239,233,233);
+	font-family: sans-serif,ARIAL,TREBUCHET MS;
+}
+
+
+
+#imp{
+	margin: 30px auto;
+	padding: 1rem 0rem 1rem 3rem;
+	width: 1300px;
+	font-size: 12px;
+
+}
+
+ h1{
+	text-align: center;
+}
+
+ input{
+	border: 0.3px solid black;
+	border-radius: 4px;
+	outline: none;
+	height: 20px;
+	padding: 1px 4px;
+	font-size: 14px;
+
+
+}
+
+ #container{
+ 	margin: auto;
+	padding: 1rem 2rem;
+	width: 1300px;
+	background-color: #08C4B5;
+	border-radius: 10px;
+	box-shadow: 4px 5px 3px rgba(0,0,0,0.5);
+}
+ #obs{
+ 	width: 500px;
+ }
+  #grade{
+  	display: flex;
+  	
+  }
+  #grade div{
+  	display: block;
+  	margin-right: 20px;
+  	text-align: center;
+  }
+   #grade input{
+   	width: 35px;
+   	display: block;
+   	text-align: center;
+   	padding: 2px;
+   }
+   #grade #total{
+   	width: 60px;
+   }
+ 	#cadastrar{
+ 		width: 150px;
+ 		height: 30px;
+ 		border-radius: 15px;
+ 		background-color: white;
+ 		font-size: 18px;
+ 		outline-style: none;
+ 	}
+ 	#cadastrar:hover{
+ 		background-color: red;
+ 		cursor: pointer;
+ 		color: white;
+ 		outline-style: none;
+ 	}
+
+
+
+ 	#imprimir{
+ 		width: 150px;
+ 		height: 30px;
+ 		border-radius: 15px;
+ 		background-color: white;
+ 		font-size: 18px;
+ 		outline-style: none;
+ 		float: right;
+ 	}
+ 	#imprimir:hover{
+ 		background-color: red;
+ 		cursor: pointer;
+ 		color: white;
+ 		outline-style: none;
+ 	}
+ 	#f1,#f2,#f3,#f4,#f5,#f6,#f7,#f1b,#f2b,#f3b,#f4b,#f5b,#f6b,#f7b,
+ 	#f1c,#f2c,#f3c,#f4c,#f5c,#f6c,#f7c,#f1d,#f2d,#f3d,#f4d,#f5d,#f6d,#f7d{
+ 		display: flex;
+
+ 	}
+ 	
+ 	#f1 p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f2 p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f3 p{
+ 		font-weight: bold;
+ 	}
+ 	#f4 p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f5 p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f6 p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f7 p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f8{
+ 		font-weight: bold;
+ 	}
+ 	#f9{
+ 		font-weight: bold;
+ 	}
+ 	#fa p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+
+ 	}
+ 	#fb p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 	}
+ 	#fc p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fd p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fe p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	} 
+ 	#ff p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fg p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fh p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fi p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+
+/*********  FORRO  ********************************************************************************************/
+
+ 	#f1b p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f2b p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f3b p{
+ 		font-weight: bold;
+ 	}
+ 	#f4b p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f5b p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f6b p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f7b p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f8b{
+ 		font-weight: bold;
+ 	}
+ 	#f9b{
+ 		font-weight: bold;
+ 	}
+ 	#fab p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+
+ 	}
+ 	#fbb p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 	}
+ 	#fcb p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fdb p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#feb p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	} 
+ 	#ffb p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fgb p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fhb p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fib p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+
+ 	/***********   PALMILHA   **************************************/
+
+
+	#f1c p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f2c p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f3c p{
+ 		font-weight: bold;
+ 	}
+ 	#f4c p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f5c p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f6c p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f7c p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f8c{
+ 		font-weight: bold;
+ 	}
+ 	#f9c{
+ 		font-weight: bold;
+ 	}
+ 	#fac p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+
+ 	}
+ 	#fbc p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 	}
+ 	#fcc p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fdc p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fec p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	} 
+ 	#ffc p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fgc p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fhc p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fic p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+
+ 	/***************************************************************************************************************/
+ 	/***************   SALTO  **********************************************************************************/
+ 	/************************************************************************************************************/
+
+
+ 	#f1d p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f2d p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f3d p{
+ 		font-weight: bold;
+ 	}
+ 	#f4d p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f5d p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f6d p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f7d p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f8d{
+ 		font-weight: bold;
+ 	}
+ 	#f9d{
+ 		font-weight: bold;
+ 	}
+ 	#fad p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+
+ 	}
+ 	#fbd p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 	}
+ 	#fcd p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fdd p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fed p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	} 
+ 	#ffd p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fgd p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fhd p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fid p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+
+
+
+
+
+ 	.campo{
+ 		display: flex;
+ 	}
+ 	
+ 	
+
+ .linhas input{
+ 	margin-right: 15px;
+ }
+ .tal {
+ 	margin-left: 20px;
+ }
