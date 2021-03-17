@@ -820,10 +820,10 @@ var t2=document.querySelector('#t2').innerHTML="FORRO";
 	p.textContent="33";
 	fac.appendChild(p);
 
-	var fab=document.querySelector('#fab');
+	var fac=document.querySelector('#fac');
 	var p=document.createElement("p");
 	p.textContent=n33;
-	fab.appendChild(p);
+	fac.appendChild(p);
 	
 	// NUMERO 34
 
