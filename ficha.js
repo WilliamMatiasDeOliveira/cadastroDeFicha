@@ -1401,7 +1401,7 @@ p.textContent="OBSERVAÇÕES : "+obs;
 f9e.appendChild(p);
 
 /********************  LINHA  10  ********************************/
-/*******************   IMPRESSÃO  ***********************************/e
+/*******************   IMPRESSÃO  ***********************************/
 // NUMERO 33b
 var fae=document.querySelector('#fae');
 var p=document.createElement("p");
