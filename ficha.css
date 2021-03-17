@@ -97,7 +97,8 @@
  		outline-style: none;
  	}
  	#f1,#f2,#f3,#f4,#f5,#f6,#f7,#f1b,#f2b,#f3b,#f4b,#f5b,#f6b,#f7b,
- 	#f1c,#f2c,#f3c,#f4c,#f5c,#f6c,#f7c,#f1d,#f2d,#f3d,#f4d,#f5d,#f6d,#f7d{
+ 	#f1c,#f2c,#f3c,#f4c,#f5c,#f6c,#f7c,#f1d,#f2d,#f3d,#f4d,#f5d,#f6d,#f7d,
+ 	#f1e,#f2e,#f3e,#f4e,#f5e,#f6e,#f7e{
  		display: flex;
 
  	}
@@ -427,6 +428,90 @@
  		font-weight: bold;
  		text-align: center;
  	}
+
+
+/*******    TALONEIRA    *******************************************************************************/
+
+
+#f1e p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f2e p{
+ 		margin-right: 50px;
+ 		font-weight: bold;
+ 	}
+ 	#f3e p{
+ 		font-weight: bold;
+ 	}
+ 	#f4e p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f5e p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f6e p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f7e p{
+ 		margin-right: 40px;
+ 		font-weight: bold;
+ 	}
+ 	#f8e{
+ 		font-weight: bold;
+ 	}
+ 	#f9e{
+ 		font-weight: bold;
+ 	}
+ 	#fae p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+
+ 	}
+ 	#fbe p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 	}
+ 	#fce p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fde p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fee p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	} 
+ 	#ffe p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fge p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fhe p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	#fie p{
+ 		margin-right: 20px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+
 
 
 

@@ -1204,6 +1204,8 @@ var t2=document.querySelector('#t2').innerHTML="FORRO";
 	p.textContent=n40;
 	fhd.appendChild(p);
 
+
+
 	// TOTAL
 
 	
@@ -1220,6 +1222,298 @@ var t2=document.querySelector('#t2').innerHTML="FORRO";
 		var p= document.createElement("p");
 		p.textContent=total;			
 		fid.appendChild(p);
+
+/**********  TALONEIRA  ******************************************************************** */
+
+var t5=document.querySelector('#t5').innerHTML="TALONEIRA";
+
+var f1e=document.querySelector("#f1e");
+var p=document.createElement("p");
+p.textContent="PEDIDO : "+pedido;
+f1e.appendChild(p);
+
+var f1e=document.querySelector("#f1e");
+var p=document.createElement("p");
+p.textContent="ITEM : "+item;
+f1e.appendChild(p);
+
+var f1e=document.querySelector("#f1e");
+var p=document.createElement("p");
+p.textContent="LOTE : "+lote;
+f1e.appendChild(p);
+
+var f1e=document.querySelector("#f1e");
+var p=document.createElement("p");
+p.textContent="FICHA : "+ficha;
+f1e.appendChild(p);
+
+/*************   LINHA  2 ****************************************/
+var f2e=document.querySelector('#f2e');
+var p=document.createElement("p");
+p.textContent="CLIENTE : "+cliente;
+f2e.appendChild(p);
+
+var f2e=document.querySelector('#f2e');
+var p=document.createElement("p");
+p.textContent="CIDADE : "+cidade;
+f2e.appendChild(p);
+/*************  LINHA  3  ***************************************/
+var f3e=document.querySelector('#f3e');
+var p=document.createElement("p");
+p.textContent="MODELO : "+modelo;
+f3e.appendChild(p);
+/**************  LINHA  4  *****************************************/
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.textContent="COR 1 : "+cor1;
+f4e.appendChild(p);
+
+if(cor2==""){
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.style.display="none;"
+
+}else{
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.textContent="COR 2 : "+cor2;
+f4e.appendChild(p);
+}
+if(cor3==""){
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.style.display="none;"
+}else{
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.textContent="COR 3 : "+cor3;
+f4e.appendChild(p);	
+}
+if(cor4==""){
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.style.display="none;"
+}else{
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.textContent="COR 4 : "+cor4;
+f4e.appendChild(p);
+}
+if(cor5==""){
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.style.display="none;"
+}else{
+var f4e=document.querySelector("#f4e");
+var p=document.createElement("p");
+p.textContent="COR 5 : "+cor5;
+f4e.appendChild(p);
+}
+/*************  LINHA  5  *********************************/
+var f5e=document.querySelector("#f5e");
+var p=document.createElement("p");
+p.textContent="PALMILHA : "+corPalmilha;
+f5e.appendChild(p);
+
+var fed=document.querySelector("#f5e");
+var p=document.createElement("p");
+p.textContent="SALTO : "+corSalto;
+f5e.appendChild(p);
+
+var f5e=document.querySelector("#f5e");
+var p=document.createElement("p");
+p.textContent="FORRO : "+forro;
+f5e.appendChild(p);
+
+var f5e=document.querySelector("#f5e");
+var p=document.createElement("p");
+p.textContent="TALONEIRA : "+taloneira;
+f5e.appendChild(p);
+
+/*********************  LINHA  6  ***************************************/
+
+var f6e=document.querySelector("#f6e");
+var p=document.createElement("p");
+p.textContent="ARTE DA TALONEIRA : "+arte;
+f6e.appendChild(p);
+
+if(document.querySelector('#silkada').checked){
+var f6e=document.querySelector("#f6e");
+var p=document.createElement("p");
+p.textContent="TIPO DA ARTE : "+silkada;
+f6e.appendChild(p);
+}
+if(document.querySelector('#queimada').checked){
+var f6e=document.querySelector("#f6e");
+var p=document.createElement("p");
+p.textContent="TIPO DA ARTE : "+queimada;
+f6e.appendChild(p);
+}
+if(document.querySelector('#etiqueta').checked){
+var f6e=document.querySelector("#f6e");
+var p=document.createElement("p");
+p.textContent="TIPO DA ARTE : "+etiqueta;
+f6e.appendChild(p);
+}
+if(document.querySelector('#colorgrafic').checked){
+var f6e=document.querySelector("#f6e");
+var p=document.createElement("p");
+p.textContent="TIPO DA ARTE : "+colorgrafic;
+f6e.appendChild(p);
+}
+if(document.querySelector('#tresd').checked){
+var f6e=document.querySelector("#f6e");
+var p=document.createElement("p");
+p.textContent="TIPO DA ARTE : "+tresd;
+f6e.appendChild(p);
+}
+
+/******************   LINHA  7  *****************************/
+
+var f7e=document.querySelector("#f7e");
+var p=document.createElement("p");
+p.textContent="REFERENCIA DO SALTO : "+refSalto;
+f7e.appendChild(p);
+
+
+var f7e=document.querySelector("#f7e");
+var p=document.createElement("p");
+p.textContent="REFERENCIA DA SOLA : "+refSola;
+f7e.appendChild(p);
+
+var f7e=document.querySelector("#f7e");
+var p=document.createElement("p");
+p.textContent="REFERENCIA DA PALMILHA : "+refPalmilha;
+f7e.appendChild(p);
+
+/**********************  LINHA  8  ******************************/
+var f8e=document.querySelector("#f8e");
+var p=document.createElement("p");
+p.textContent="COR DA SOLA : "+corSola;
+f8e.appendChild(p);
+
+
+/**********************  LINHA  9  ******************************/
+
+var f9e=document.querySelector("#f9e");
+var p=document.createElement("p");
+p.textContent="OBSERVAÇÕES : "+obs;
+f9e.appendChild(p);
+
+/********************  LINHA  10  ********************************/
+/*******************   IMPRESSÃO  ***********************************/e
+// NUMERO 33b
+var fae=document.querySelector('#fae');
+var p=document.createElement("p");
+p.textContent="33";
+fae.appendChild(p);
+
+var fae=document.querySelector('#fae');
+var p=document.createElement("p");
+p.textContent=n33;
+fae.appendChild(p);
+
+// NUMERO 34
+
+var fbe=document.querySelector('#fbe');
+var p=document.createElement("p");
+p.textContent="34";
+fbe.appendChild(p);
+
+var fbe=document.querySelector('#fbe');
+var p=document.createElement("p");
+p.textContent=n34;
+fbe.appendChild(p);
+
+//NUMERO 35
+
+var fce=document.querySelector('#fce');
+var p=document.createElement("p");
+p.textContent="35";
+fce.appendChild(p);
+
+var fce=document.querySelector('#fce');
+var p=document.createElement("p");
+p.textContent=n35;
+fce.appendChild(p);
+
+//NUMERO 36
+
+var fde=document.querySelector('#fde');
+var p=document.createElement("p");
+p.textContent="36";
+fde.appendChild(p);
+
+var fde=document.querySelector('#fde');
+var p=document.createElement("p");
+p.textContent=n36;
+fde.appendChild(p);
+
+// NUMERO 37
+
+var fee=document.querySelector('#fee');
+var p=document.createElement("p");
+p.textContent="37";
+fee.appendChild(p);
+
+var fee=document.querySelector('#fee');
+var p=document.createElement("p");
+p.textContent=n37;
+fee.appendChild(p);
+
+// NUMERO 38
+
+var ffe=document.querySelector('#ffe');
+var p=document.createElement("p");
+p.textContent="38";
+ffe.appendChild(p);
+
+var ffe=document.querySelector('#ffe');
+var p=document.createElement("p");
+p.textContent=n38;
+ffe.appendChild(p);
+
+// NUMERO 39
+
+var fge=document.querySelector('#fge');
+var p=document.createElement("p");
+p.textContent="39";
+fge.appendChild(p);
+
+var fge=document.querySelector('#fge');
+var p=document.createElement("p");
+p.textContent=n39;
+fge.appendChild(p);
+
+// NUMERO 40
+
+var fhe=document.querySelector('#fhe');
+var p=document.createElement("p");
+p.textContent="40";
+fhe.appendChild(p);
+
+var fhe=document.querySelector('#fhe');
+var p=document.createElement("p");
+p.textContent=n40;
+fhe.appendChild(p);
+
+// TOTAL
+
+	
+var total= Number(n33)+Number(n34)+Number(n35)+Number(n36)+
+Number(n37)+Number(n38)+Number(n39)+Number(n40);
+
+
+var fie= document.querySelector("#fie");	
+var p= document.createElement("p");
+p.textContent="TOTAL";			
+fie.appendChild(p);	
+
+var fie= document.querySelector("#fie");	
+var p= document.createElement("p");
+p.textContent=total;			
+fie.appendChild(p);
+
 
 		
 
