@@ -1536,11 +1536,12 @@ fie.appendChild(p);
 
 
 	function imprimir(){
-		var container=document.querySelector('#container');
-		container.style.display="none";
-		print();
-		container.style.display="block";
-		window.location.reload();
+		var restalrarPagina=document.body.innerHTML;
+		var conteudoDaImpressao=document.getElementById("imp").innerHTML;
+		document.body.innerHTML=conteudoDaImpressao;
+		window.print();
+		document.body.innerHTML = restalrarPagina;
+
 	
 }
 
