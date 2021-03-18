@@ -100,6 +100,7 @@
  	#f1c,#f2c,#f3c,#f4c,#f5c,#f6c,#f7c,#f1d,#f2d,#f3d,#f4d,#f5d,#f6d,#f7d,
  	#f1e,#f2e,#f3e,#f4e,#f5e,#f6e,#f7e{
  		display: flex;
+		 font-size: 8px;
 
  	}
  	
