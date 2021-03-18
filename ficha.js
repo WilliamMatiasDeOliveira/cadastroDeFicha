@@ -45,7 +45,7 @@ var n40=document.querySelector('#n40').value;
 /*==================================================*/
 /*=================  CORTE  =========================*/
 /*===================================================*/
-
+/*******************   IMPRESSÃO  ***********************************/
 	
 /***********   LINHA 1  ***************************************/
 	var t1=document.querySelector('#t1').innerHTML="CORTE";
@@ -210,10 +210,10 @@ var n40=document.querySelector('#n40').value;
 	f7.appendChild(p);
 
 /**********************  LINHA  8  ******************************/
-	var f8=document.querySelector("#f8");
+	var f7=document.querySelector("#f7");
 	var p=document.createElement("p");
 	p.textContent="COR DA SOLA : "+corSola;
-	f8.appendChild(p);
+	f7.appendChild(p);
 	
 
 /**********************  LINHA  9  ******************************/
@@ -224,7 +224,7 @@ var n40=document.querySelector('#n40').value;
 	f9.appendChild(p);
 
 /********************  LINHA  10  ********************************/
-/*******************   IMPRESSÃO  ***********************************/
+
 
 	// NUMERO 33
 	var fa=document.querySelector('#fa');
@@ -504,10 +504,10 @@ var t2=document.querySelector('#t2').innerHTML="FORRO";
 	f7b.appendChild(p);
 
 /**********************  LINHA  8  ******************************/
-	var f8b=document.querySelector("#f8b");
+	var f7b=document.querySelector("#f7b");
 	var p=document.createElement("p");
 	p.textContent="COR DA SOLA : "+corSola;
-	f8b.appendChild(p);
+	f7b.appendChild(p);
 	
 
 /**********************  LINHA  9  ******************************/
@@ -798,10 +798,10 @@ var t2=document.querySelector('#t2').innerHTML="FORRO";
 	f7c.appendChild(p);
 
 /**********************  LINHA  8  ******************************/
-	var f8c=document.querySelector("#f8c");
+	var f7c=document.querySelector("#f7c");
 	var p=document.createElement("p");
 	p.textContent="COR DA SOLA : "+corSola;
-	f8c.appendChild(p);
+	f7c.appendChild(p);
 	
 
 /**********************  LINHA  9  ******************************/
@@ -1093,10 +1093,10 @@ var t2=document.querySelector('#t2').innerHTML="FORRO";
 	f7d.appendChild(p);
 
 /**********************  LINHA  8  ******************************/
-	var f8d=document.querySelector("#f8d");
+	var f7d=document.querySelector("#f7d");
 	var p=document.createElement("p");
 	p.textContent="COR DA SOLA : "+corSola;
-	f8d.appendChild(p);
+	f7d.appendChild(p);
 	
 
 /**********************  LINHA  9  ******************************/
@@ -1387,10 +1387,10 @@ p.textContent="REFERENCIA DA PALMILHA : "+refPalmilha;
 f7e.appendChild(p);
 
 /**********************  LINHA  8  ******************************/
-var f8e=document.querySelector("#f8e");
+var f7e=document.querySelector("#f7e");
 var p=document.createElement("p");
 p.textContent="COR DA SOLA : "+corSola;
-f8e.appendChild(p);
+f7e.appendChild(p);
 
 
 /**********************  LINHA  9  ******************************/
